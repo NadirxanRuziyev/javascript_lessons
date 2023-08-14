@@ -9,7 +9,7 @@
 // // 1-misol
 // let myName = prompt("ismingizni kiriting:"),
 //     age = +prompt("Yoshingizni kiriting:");
-// console.log(`Assalomu aleykum ${myName}👨‍🎓
+// console.log(`Assalomu aleykum ${myName}
 // Sizning yilingiz ${2023- age}
 // Yashagan oyingiz: ${age*12}
 // Yashagan Hafta: ${(age*12)*4+3}
