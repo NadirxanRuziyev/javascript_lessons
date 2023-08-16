@@ -57,7 +57,7 @@
 // console.log(ism.includes('o')); // matinni ichidagi element bor bo'lsa 'true' /aks holda 'false'
 
 // // mantiqiy Taqqoslash operqtorlari <==
-let a = 10,b=12;
+// let a = 10, b=12;
 // console.log(a = b); // '=' - o'zlashtiruvchi operator a ->b ni o'zlashtirib oldi.
 // console.log(a==b); // noqatiy tenglik . ikki sonni tengligini tecshiradi Tipi Ahamiyatga ega emas.\false
 // console.log(a=='10'); // noqatiy tenglik . ikki sonni tengligini tecshiradi Tipi Ahamiyatga ega emas.\true
@@ -97,6 +97,7 @@ let a = 10,b=12;
 // console.log(allItem); // Barcha tipdagi array
 
 // // method <==
+// console.log(num.includes(6)); // element bor bo'lsa boolean qiymat qaytaradi 
 // console.log(num.length); // Massiv uzunligini aniqlash.
 // console.log(text.indexOf('i')); // TUrdan indexni aniqlash
 // console.log(text.concat(num)); // massivlarni bir biriga qo'shish qo'shish.
@@ -104,5 +105,63 @@ let a = 10,b=12;
 // console.log(num.push(7));  //  massivning oxiriga element qo'shish
 // console.log(text.unshift('B')); // massiv boshiga element qo'shish
 // console.log(text.shift()); // Massiv boshidan elementni qirqib olish.
+
+// // // ====>> For loops -tsikl;
+// -----------------------------------------------------------------
+// for(let i =0 ; i < 6 ; i++){          // for(boshi; davomiyligi; qadami){}
+//    // takrorlanishi kerak bo'lgan kontent
+// }
+
+// -----------------------------------------------------------------
+// for(let key of array){               
+//     // Takrorlanishi kerak bo'lgan massivlar elementlari uchun amal
+// }
+
+// -----------------------------------------------------------------
+//  for(let key in objekt){
+//   // Takrorlanishi kerak bo'lgan objeck elementlari uchun amal
+// }
+    
+// -----------------------------------------------------------------
+// let i = 0; //qadam boshi
+// while(Shart){
+//     //takrorlanishi kerak bo'lgan amallar
+//     i++  // qadanmar uzunligi
+// }
+
+// -----------------------------------------------------------------
+// let i = 0; //qadam boshi
+// do{
+//     //takrorlanishi kerak bo'lgan amallar
+//     i++  // qadanmar uzunligi
+// }while(Shart)
+
+// // // ====> shart operatorlar if ,else if , else va switch.
+// if(shart){  
+//     // Amallar
+// }else if(shart_2){
+//     // Amallar_2
+// }else{
+//    // oxirgi amal
+// }
+
+
+// // // switch <=--
+// switch(verible){
+//     case value1;
+//       // Bajarilishi kerak bo'lgan amal
+//       break
+//     case value2;
+//       // Bajarilishi kerak bo'lgan amal
+//       break
+//     case value3;
+//       // Bajarilishi kerak bo'lgan amal
+//       break
+//     default:
+//         // Oxirgi imkonziya bo'lmaganda chiqadigan qiymat.
+// }
+
+
+// let a = 10;
 
 
