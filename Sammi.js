@@ -1,4 +1,4 @@
-"use strict"
+"use script"
 
 // let  numberOfSeries ;
 // function startApp(){
@@ -67,15 +67,13 @@
 // writeGenres();
 
 // // // // Callback function -----------------------------------------------------------------------------------------------
-
-// function salom_ber(myName,collback){
-//     console.log(`Assalomu aleykum ${myName}`);
-//     collback();
+// function salomlash(myName,javob){
+//     console.log(`Assalomu aleykum  ${myName}` );
+//     javob("Jasur");
 // }
-
-// salom_ber("Nodir", function(){
-//     console.log("Valeykum assalom");
-// })
+// salomlash("Nodir" ,(youname)=>{
+//     console.log(`Va aleykum assalom ${youname} `);
+// } )
 
 // // // //  object bn ishlash  -------------------------------------------------------------------------------------------
 
@@ -84,19 +82,27 @@
 //     height:1.7,
 //     color:{
 //         hear:"red",
+//         item:{
+//             bit:1024,
+//             gm : 214,
+//             nodir:'ruziyev',
+//         },
 //         style:'blue',
 //         salom:"valeykum"
 //     }
 // }
 
-// const {hear , style ,salom} = thear.color;
+
+// const {bit,gm,nodir} =thear.color.item;
+// console.log(bit,gm,nodir);
+
+// const {salom,hear,style} =thear.color;
 // console.log(salom);
 // console.log( hear);
 // console.log( style);
 
 // console.log( thear.jacket);
-// console.log(Object.keys(thear));
-
+// console.log(Object.keys(thear.color.item));
 // for (let key in thear){
 //     if(typeof thear[key] ==="object"){
 //         for(let i in thear[key])[
