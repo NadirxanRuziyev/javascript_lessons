@@ -215,3 +215,47 @@
 //     correct +=item +' '
 // })
 // console.log(correct.trim());    
+
+// // 7-misol 
+// const num = [20,40,20.2,40.2,50,5.5,Infinity,"Nodir","Jasur"];
+// let sum = 0;
+
+// num.forEach((item)=>{
+//     if(item >= 0 && Math.floor(item) === item && item != Infinity && typeof item == 'number'){
+//         sum +=item
+//     }
+// })
+// console.log(sum);
+
+// // 8-misol
+// // 1-usul
+// let text = prompt('text;');
+// const newtext = text.toLowerCase().split('a');
+// console.log(newtext.join(''));
+
+// // 2-usul
+// let text = prompt().toLocaleLowerCase();
+// let newtext =''
+// for(let i =0 ; i < text.length ; i++){
+//     if(text[i] !== 'a'){
+//         newtext +=text[i]
+//     }
+// }
+// console.log(newtext);
+
+// // 9-misol 
+// // 1-usul
+// const mass = [ 'mun' ,21 ];
+// const newmass =[];
+// mass.forEach((item)=>{
+//     newmass.push(typeof item)
+// })
+// console.log(newmass);
+
+// // 2-usul
+// const massiv = [ 1 , {} , [] ,'Nodir' , null , true];
+// const newmas = [];
+// for(let key of massiv){
+//     newmas.push(typeof key);
+// }
+// console.log(newmas);

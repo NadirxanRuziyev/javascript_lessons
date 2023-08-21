@@ -1,70 +1,56 @@
 "use script"
-
-// let  numberOfSeries ;
-// function startApp(){
-//     numberOfSeries  = +prompt("Nechta o'yin ko'rdingiz ?");
-//     while(numberOfSeries =='' || numberOfSeries == null || isNaN(numberOfSeries)){
-//         numberOfSeries  = +prompt("Nechta o'yin ko'rdingiz ?");
-//     }
-// };
-
-// startApp();
-
 // let seriesDB = {
-//     count:10, // numberOfSeries
+//     count:10, 
 //     series:{},
-//     actors:{count:10 },//numberOfSeries
+//     actors:{count:0 },
 //     genres:[],
-//     privat:false
+//     privat:false,
+//     startApp: ()=>{
+//         seriesDB.count  = +prompt("Nechta o'yin ko'rdingiz ?");
+//         while(seriesDB.count =='' || seriesDB.count == null || isNaN(seriesDB.count)){
+//             seriesDB.count  = +prompt("Nechta o'yin ko'rdingiz ?");
+//         }
+//         console.log(seriesDB.count);
+//     },
+//     rememberMySeries:()=>{
+//         for(let i = 0; i < 2;){
+//             let savol_1 = prompt("Oxirgi ko'rgan serialingiz:"),
+//                 baho = +prompt("Necha baho berasiz:");
+//             if(savol_1 != "" && savol_1 != null && baho != '' && baho !=null){
+//                 seriesDB.series[savol_1] = baho;
+//                 i++
+//             }
+//         }
+//         console.log(seriesDB.series);
+//     },
+//     tajriba:()=>{
+//         let javob;
+//         if(seriesDB.count > 10){
+//             javob = "Siz seryalchi zvezda ekansiz.";
+//         }else if(seriesDB.count > 5){
+//             javob = "Siz classik tomoshabin ekansiz.";
+//         }else{
+//             javob = "Siz kam serial ko'ribsiz";
+//         };
+//         console.log(javob);
+//     },
+//     malumot:()=>{
+//         if(!seriesDB.privat){
+//             console.log(seriesDB);
+//         }
+//     },
+//     writeGenres:()=>{
+//         for(let i=0 ; i<3; i++){
+//             let question = prompt(`yaxshi Korgan janiringiz ${i+1} =>`);
+//             while(question == '' || question == null){
+//                 question = prompt(`yaxshi Korgan janiringiz:${i+1}`);
+//             }  
+//             seriesDB.genres[i] = question;
+//         }
+//         console.log(seriesDB.genres);
+//     },
 // };
 
-
-// function rememberMySeries(){
-//     for(let i = 0; i < 2;){
-//         let savol_1 = prompt("Oxirgi ko'rgan serialingiz:"),
-//             baho = +prompt("Necha baho berasiz:");
-//         if(savol_1 != "" && savol_1 != null && baho != '' && baho !=null){
-//             seriesDB.series[savol_1] = baho;
-//             i++
-//         }
-//     }
-// }
-// rememberMySeries();
-
-// function tajriba(){
-//     let javob;
-//     if(seriesDB.count > 10){
-//         javob = "Siz seryalchi zvezda ekansiz.";
-//     }else if(seriesDB.count > 5){
-//         javob = "Siz classik tomoshabin ekansiz.";
-//     }else{
-//         javob = "Siz kam serial ko'ribsiz";
-//     };
-//     console.log(javob);
-// } 
-
-// tajriba();
-
-// function malumot(){
-//    if(!seriesDB.privat){
-//       console.log(seriesDB);
-//    }
-// }
-
-// malumot();
-
-// function writeGenres(){
-//     for(let i=0 ; i<3; i++){
-//         let question = prompt(`yaxshi Korgan janiringiz ${i+1} =>`);
-//         while(question == '' || question == null){
-//             question = prompt(`yaxshi Korgan janiringiz:${i+1}`);
-//         }  
-//         seriesDB.genres[i] = question;
-//     }
-//     console.log(seriesDB.genres);
-// }
-
-// writeGenres();
 
 // // // // Callback function -----------------------------------------------------------------------------------------------
 // function salomlash(myName,javob){
