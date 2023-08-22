@@ -1,3 +1,4 @@
+'use strict'
 // // Amaliyot_1 ---------------------------------------------------------------
 // let ism = prompt("ismni kiriting:"); // Ahror ismini turli ko'rinishda yozing; 1.aHroR 
 // let bir_harf = ism.charAt().toUpperCase();

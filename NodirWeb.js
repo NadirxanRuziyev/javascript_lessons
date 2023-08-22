@@ -1,4 +1,4 @@
-"use script"
+"use strict"
 // //   ------------------   Data (ma'lumot ) turlari.---------------------------------- \\ \\
 
 

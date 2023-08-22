@@ -1,4 +1,4 @@
-"use script"
+"use strict"
 // let seriesDB = {
 //     count:10, 
 //     series:{},
@@ -218,4 +218,24 @@
 //  console.log(copyProto);
 
 // ============================================================
+
+// // Dinamik typeing 
+// let str = '0';
+// str = Number(str);
+// console.log(typeof str); // Number
+
+// let num = 123;
+// num = String(num);
+// console.log(typeof num); // String
+
+// num = +num
+// console.log(typeof num); // Number
+
+// str = Boolean(str); // Boolean
+// console.log(str);
+// str = !!str // Boolean
+// console.log(str);
+// // false qiymatlar  // 0 , '' , null , indefined , NaN 
+
+// ===================================================================
 
