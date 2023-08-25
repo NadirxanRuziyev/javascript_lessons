@@ -7,7 +7,7 @@
 // console.log(alltext); // Natija:Ahror
 
 // // Amaliyo_2----------------------------------------------------------------
-// // 1-misol
+// // 1-masala
 // let myName = prompt("ismingizni kiriting:"),
 //     age = +prompt("Yoshingizni kiriting:");
 // console.log(`Assalomu aleykum ${myName}
@@ -20,7 +20,7 @@
 // Yashagan sekunt: ${age*365*24*60*60}
 // `);
 
-// // 2-misol
+// // 2-masala
 // const he_name = prompt("Sizga kim kerak");
 // const names = ['nodir','baxrom','ahmadjon','diyor'];
 // if(names.includes(he_name.toLowerCase())){
@@ -29,7 +29,7 @@
 //     console.log("Bunday ism mavjud emas:");
 // }
 
-// // 3-misol
+// // 3-masala
 // const ism = ['Baxrom','Nadir','Ahmad'];
 // // 1-usul
 // ism.forEach((a)=>{
@@ -68,7 +68,7 @@
 //     i++
 // }while(i < ism.length)
 
-// // 4-misol
+// // 4-masala
 // let viloyat = prompt('Viloyat nomini kiriting:');
 // let viloyatLower = viloyat.toLowerCase()
 // switch(viloyatLower){
@@ -85,7 +85,7 @@
 //         console.log("Bu viloyat haqida ma'lumotga ega emasmiz");
 // }
 
-// // 5-misol 
+// // 5-masala 
 // const p = prompt(' Pasport raqamingizni kiriting :');
 // if(p.length > 5){
 //     alert(`siz belgilangan belgidan ${p.length-5}taga oshdingiz
@@ -96,7 +96,7 @@
 // }
 
 // // Amaliyo_3----------------------------------------------------------------
-// //1-misol
+// //1-masala
 // //1-usul
 // const array = [[false , true] , [ 1 , 2] , 99 , 'yaxshi' ];
 // for(let i= 0; i < array.length ;i++){
@@ -119,7 +119,7 @@
 //     }
 // }
 
-// // 2-misol
+// // 2-masala
 // // 1-usul
 // const data = [[1,2,3] ,'qizil' , [4,5,6] ,true,false];
 // let numdata = []
@@ -141,7 +141,7 @@
 // console.log(numdata)
 
 
-// // 3-misol
+// // 3-masala
 // // 1- usul
 // const array = [ [1,2,3,4,5] , [6,7,8,9],[9,8,7,6,5,4], [1,2,3,4,5,6,7,8,9]];
 // const allnum = [];
@@ -162,7 +162,7 @@
 // })
 // console.log(allnum);
 
-// // 4-misol
+// // 4-masala
 // const checkdata = [null, 'false' , 0 , 99 , false , undefined, '',NaN, '0'];
 // const newfalse = [];
 // checkdata.forEach((item)=>{
@@ -172,7 +172,7 @@
 // })
 // console.log(newfalse);
 
-// // 5-misol
+// // 5-masala
 // // 1-usul
 // const text = prompt();
 // const massiv = text.split('');
@@ -204,7 +204,7 @@
 // const revtext = arrtext.join('');
 // console.log(revtext);
 
-// // 6-misol
+// // 6-masala
 // let Word = 'AssALOmu aLeyKUm YaxshiMisiZ';
 // let wordMas = Word.split(' ');
 // let javob =[];
@@ -217,7 +217,7 @@
 // })
 // console.log(correct.trim());    
 
-// // 7-misol 
+// // 7-masala 
 // const num = [20,40,20.2,40.2,50,5.5,Infinity,"Nodir","Jasur"];
 // let sum = 0;
 
@@ -228,7 +228,7 @@
 // })
 // console.log(sum);
 
-// // 8-misol
+// // 8-masala
 // // 1-usul
 // let text = prompt('text;');
 // const newtext = text.toLowerCase().split('a');
@@ -244,7 +244,7 @@
 // }
 // console.log(newtext);
 
-// // 9-misol 
+// // 9-masala 
 // // 1-usul
 // const mass = [ 'mun' ,21 ];
 // const newmass =[];
@@ -260,3 +260,101 @@
 //     newmas.push(typeof key);
 // }
 // console.log(newmas);
+
+// // 10 - masala
+// // 1- usul
+//  const textLength = prompt();
+//  const newtext = textLength.split('');
+//  let count = 0;
+//  newtext.forEach(()=>{
+//     count++
+//  })
+//  console.log(count);
+
+// // 2-usul
+// const textLength = prompt();
+// let count = 0;
+// let a = 1;
+// for (let i =0 ; i < a ;i++){
+//     if(typeof textLength[i] !== "undefined"){
+//         count++
+//         a++
+//     }
+// }
+// console.log(count);
+
+// // 3-usul
+// const text = 'Uzbekistan';
+// console.log(text.indexOf(text.slice(-1))+1);
+
+// // 11 - masala
+// // 1-usul
+// const numMassiv = [1,2,3,4,5];
+// const newMassiv = [];
+// numMassiv.forEach((item, index)=>{
+//      newMassiv.push(item + index);
+// })
+// console.log(newMassiv )
+
+// // 2 - usul
+// const numMassiv = [1,2,3,4,5];
+// const newMassiv = [];
+// for(let i = 0 ; i < numMassiv.length ; i++){
+//     newMassiv.push(numMassiv[i] + i);
+// };
+// console.log(newMassiv);
+
+// // 12 - masala
+// // 1 - usul
+// const number = +prompt();
+// let text = ''
+// let summ = 0;
+// for(let i = 1 ; i <= number ;i++ ){
+//     summ += i
+//     text +=`${i}+`
+// };
+// console.log(`${text.slice(0,text.length-1)} = ${summ}`);
+
+// // 2 - usul
+// let i = 1, summ = 0, text='';   
+// const number = + prompt() 
+// while(i<=number){
+//     summ += i
+//     text +=`${i}+`
+//     i++
+// }
+// console.log(`${text.slice(0,text.length-1)} = ${summ}`);
+
+// // 13 - masala
+// // 1-usul
+// const num = +prompt();
+// const numMas = [];
+// for(let i = 1 ; i <= 10 ; i++){
+//     numMas.push(num*i +1 )
+// }
+// console.log(numMas);
+
+// // 2- usul
+// const num = +prompt();
+// const numMas = [];
+// let i = 1;
+// do{
+//     numMas.push(num*i +1 );
+//     i++
+// }while( i<=10);
+// console.log(numMas);
+
+// // 14 - masala
+const num = [-1,2,'Nodir',-3,4,-5,6,-7]
+const num2 = [-1,-2,-3,true,'Ruziyev',4,5,6,7]
+function qaramaRaqam(arr){
+    arr.forEach((item,idx) => {
+        if(typeof item == "number"){
+          arr[idx] = item * (-1)
+        }
+    })
+    console.log(arr);
+}
+
+// qaramaRaqam(num)
+// qaramaRaqam(num2)

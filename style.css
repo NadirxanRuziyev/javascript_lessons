@@ -11,5 +11,5 @@ body{
     height: 100vh;
     font-size: 2rem;
     color:rgb(10, 255, 10);
-    background:linear-gradient(to bottom right , red ,blue );
+    /* background:linear-gradient(to bottom right , red ,blue ); */
 }
