@@ -240,3 +240,25 @@
 // ===================================================================
 // // classList . add() , remove(), toggle() , contains() va item() => elementlar.
 
+// const btn = document.querySelectorAll("button");
+
+// btn[0].classList.add("red"); //  class qo'shish
+// btn[0].classList.remove('red'); // bor bo'lgan  classni olib tashlash.
+// btn[0].classList.toggle("red"); // class bor bo'lsa olish aks holda qo'shish
+// console.log(btn[0].classList.item(0));  // class element o'rnidagi elementni bilish
+// console.log(btn[0].classList.item(1));
+// console.log(btn[0].classList.item(2));
+// console.log(btn[0].classList.contains("red")); // boolean qiymat qaytaradi 'Elementni borligini tekshirish'
+// console.log(btn[0].classList.contains("green"));
+
+// btn[0].addEventListener("click",()=>{
+//     // if(btn[1].classList.contains("red")){
+//     //     btn[1].classList.remove("red");
+//     // }else{
+//     //     btn[1].classList.add("red");
+//     // }
+//     btn[1].classList.toggle("red")
+
+// })
+
+// ===================================================================
